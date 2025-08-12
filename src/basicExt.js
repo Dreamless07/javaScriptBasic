@@ -17,7 +17,6 @@ console.log(b+c)//will concatenate different datatypes also
 console.log(b-c)//=== is used to compare both value and datatype
 */
 
-
 /*
 function largest(a, b, c) {
     if (a >= b && a >= c) {
@@ -64,3 +63,10 @@ console.log(string.repeat(4))
 console.log(string.concat(message))
 console.log(string.includes("Python"))
 console.log(string.indexOf("and"))
+
+let a=12.32965
+console.log(a, typeof(a))
+console.log(a.toFixed(3))
+console.log(a.toPrecision(8))
+console.log(a.isNumber)//works partially
+console.log(Number.isNaN())
