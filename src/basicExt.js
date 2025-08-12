@@ -46,9 +46,21 @@ function largest(a, b, c) {
 }
 */
 
-let string="Welcome to basics"
+//all string related methods
+let string="Welcome to basics,"
+let message=" Let us start!"
 console.log(string.length)
 console.log(string.toUpperCase())
 console.log(string.toLowerCase())
 console.log(string.trim())
 console.log(string.slice(0,7))
+console.log(string.slice(-1))
+console.log(string.replace("basics","Javascript"))
+console.log(string.replaceAll("JavaScript","basics"))
+console.log(string.charAt(1))
+console.log(string.charCodeAt(1))
+console.log(string.split(","))
+console.log(string.repeat(4))
+console.log(string.concat(message))
+console.log(string.includes("Python"))
+console.log(string.indexOf("and"))
