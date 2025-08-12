@@ -83,8 +83,9 @@ array.unshift("good day")//insert in beginning
 console.log(array)
 array.shift()//delete from beginning
 console.log(array)
+console.log(array.slice(2,3))//starting index, ending index
+console.log(array.splice(2, 2,"bye","hi"))//(starting index, how many indexes to delete from starting index, insert inplace of that)
 console.log(array.join())//to convert array to string
 console.log(array.sort())
 console.log(array.reverse())
 console.log(array.indexOf("a"))
-
