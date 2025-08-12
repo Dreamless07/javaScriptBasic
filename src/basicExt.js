@@ -58,7 +58,7 @@ console.log(string.replace("basics","Javascript"))
 console.log(string.replaceAll("JavaScript","basics"))
 console.log(string.charAt(1))
 console.log(string.charCodeAt(1))
-console.log(string.split(","))
+console.log(string.split(","))//to convert string to array
 console.log(string.repeat(4))
 console.log(string.concat(message))
 console.log(string.includes("Python"))
@@ -68,5 +68,23 @@ let a=12.32965
 console.log(a, typeof(a))
 console.log(a.toFixed(3))
 console.log(a.toPrecision(8))
-console.log(a.isNumber)//works partially
+console.log(Number.isInteger(a))
 console.log(Number.isNaN())
+console.log(Number.parseInt(null))//convert to integer
+
+//arrays
+let array=["a",123,"hello","3.4"]
+console.log(array)
+array.push("Nice")//inserts at the end
+console.log(array)
+array.pop()//removes at last
+console.log(array)
+array.unshift("good day")//insert in beginning
+console.log(array)
+array.shift()//delete from beginning
+console.log(array)
+console.log(array.join())//to convert array to string
+console.log(array.sort())
+console.log(array.reverse())
+console.log(array.indexOf("a"))
+
