@@ -45,3 +45,10 @@ function largest(a, b, c) {
     }
 }
 */
+
+let string="Welcome to basics"
+console.log(string.length)
+console.log(string.toUpperCase())
+console.log(string.toLowerCase())
+console.log(string.trim())
+console.log(string.slice(0,7))
