@@ -51,10 +51,10 @@ const demo=(name, age)=> console.log(name, age)
 demo("Harry",23)
 
 //constructor function
-function constFunc(name,age){
+function constFunc(name,age){//if not passing any value during object creation, then we can write (name="Ajay",age=18) in parameters.
     this.name=name
     this.age=age
 }
-let ob=new constFunc("Sam",22)//object created
+let ob=new constFunc("Sam",22)//object created and passed values
 console.log(ob.name,ob.age)
 
