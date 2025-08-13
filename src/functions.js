@@ -25,3 +25,16 @@ let print=person1("Ajay",20)
 console.log(print)
 
 
+function add(a,b){
+    return `The addition of ${a} and ${b} is ${a+b}`
+}
+let addition=add(30,20)
+console.log(addition)
+
+function sub(a,b){
+    return `The subtraction of ${a} and ${b} is ${a-b}`
+}
+let subtraction=sub(30,20)
+console.log(subtraction)
+
+
