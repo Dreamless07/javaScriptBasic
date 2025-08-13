@@ -8,7 +8,13 @@
 
 <h1>Calculator</h1>
 <input type="number" id="num1" placeholder="Enter the first number">
-<select id="operation"><option id="add"> + </option></select>
+<select id="operation">
+    <option id="add"> + </option>
+    <option id="sub"> - </option>
+    <option id="mul"> * </option>
+    <option id="div"> / </option>
+    <option id="mod"> % </option>
+</select>
 <input type="number" id="num2" placeholder="Enter the second number">
 <button onclick="calculate()">Calculate</button>
 <p id="result"></p>
@@ -21,6 +27,18 @@ function calculate(){
   let res=0;
     if(op=="+"){
         res=a+b;
+    }
+    else if(op=="-"){
+        res=a-b;
+    }
+    else if(op=="*"){
+        res=a*b;
+    }
+    else if(op=="/"){
+        res=(b!=0)?(a/b):"Cannot divide by zero"
+    }
+    else if(op=="%"){
+        res=a%b;
     }
     document.getElementById("result").innerText= "Result="+res;
 }
