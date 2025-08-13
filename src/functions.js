@@ -38,3 +38,23 @@ let subtraction=sub(30,20)
 console.log(subtraction)
 
 
+//function types:
+
+//anonymous function
+newVar=function(){
+    console.log("This is an anonymous function")
+}
+newVar()
+
+//lambda function
+const demo=(name, age)=> console.log(name, age)
+demo("Harry",23)
+
+//constructor function
+function newConstruct(name,age){
+    this.name=name
+    this.age=age
+}
+let ob=new newConstruct("Sam",22)//object created
+console.log(ob.name,ob.age)
+
