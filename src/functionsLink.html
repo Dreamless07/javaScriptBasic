@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Calculator</h1>
+<input type="number" id="num1" placeholder="Enter the first number">
+<select id="operation"><option id="add"> + </option></select>
+<input type="number" id="num2" placeholder="Enter the second number">
+<button onclick="calculate()">Calculate</button>
+<p id="result"></p>
+<script>
+
+function calculate(){
+  let a=Number(document.getElementById("num1").value);
+  let b=Number(document.getElementById("num2").value);
+  let op=document.getElementById("operation").value;
+  let res=0;
+    if(op=="+"){
+        res=a+b;
+    }
+    document.getElementById("result").innerText= "Result="+res;
+}
+
+</script>
+</body>
+</html>
