@@ -1,0 +1,21 @@
+let data = {
+    "name": {
+        "firstname": "Mohammad",
+        "lastname": "Khan"
+    },
+    "branch": {
+        "CSE": {
+            "C1": "AIML",
+            "C2": "AIDS"
+        },
+        "Mech": {
+            "M1": "Robotics"
+        }
+    }
+};
+
+console.log(data.name.firstname);
+console.log(data.name.lastname);
+console.log(data.branch.CSE.C1);
+console.log(data.branch.CSE.C2);
+console.log(data.branch.Mech.M1);
