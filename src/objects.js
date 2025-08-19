@@ -28,7 +28,7 @@ for (key in data.branch){//for in loopd
 let func={
     "name":"ajay",
     "age":"22",
-     "add":function()
+     "add":function()//anonymous function
     {
     console.log(func.name)//can use "this" keyword to fetch all objects of "name"
     }
