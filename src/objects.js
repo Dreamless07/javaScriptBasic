@@ -20,7 +20,7 @@ console.log(data.branch.CSE.C1);
 console.log(data.branch.CSE.C2);
 console.log(data.branch.Mech.M1);
 
-for (key in data.branch){
+for (key in data.branch){//for in loopd
     console.log(key)// to get only key values from objects
 }
 
